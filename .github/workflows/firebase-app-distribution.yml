@@ -47,6 +47,7 @@ jobs:
           token: ${{secrets.FIREBASE_TOKEN}}
           groups: 커피챗
           file: app/build/outputs/apk/release/app-release-unsigned.apk
+          releaseNotesFile: release_notes.txt
 
       # Runs a single command using the runners shell
       #      - name: Run a one-line script
